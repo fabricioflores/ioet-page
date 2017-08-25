@@ -147,22 +147,22 @@
             <div class="row topwidget">
 
               <!-- Start: Top wid
-              get first -->          
+              get first -->
               {% if page.topwidget_first %}
                 <div class = {{ topwidget_class }}>{{ page.topwidget_first }}</div>
-              {% endif %}          
-              <!-- End: Top widget first --> 
+              {% endif %}
+              <!-- End: Top widget first -->
 
-              <!-- Start: Top widget second -->          
+              <!-- Start: Top widget second -->
               {% if page.topwidget_second %}
                 <div class = {{ topwidget_class }}>{{ page.topwidget_second }}</div>
-              {% endif %}          
-              <!-- End: Top widget second --> 
-              
-              <!-- Start: Top widget third -->         
+              {% endif %}
+              <!-- End: Top widget second -->
+
+              <!-- Start: Top widget third -->
               {% if page.topwidget_third %}
                 <div class = {{ topwidget_third_class }}>{{ page.topwidget_third }}</div>
-              {% endif %}          
+              {% endif %}
               <!-- End: Top widget third -->
 
             </div>
@@ -178,7 +178,7 @@
 <!-- Start: xxx -->
 <div class="parallax-widget one">
   <div class="parallax-region- wow bounceInDown">
-    
+
     {% if page.highlighted %}
       <div class="container">
         <div class="row">
@@ -276,17 +276,17 @@
 
 <!-- Start: Home page message -->
 {% if is_front and (page.bottom_first or page.bottom_second or page.bottom_third or page.bottom_forth) %}
-  <div class="parallax-widget four" id="products">    
+  <div class="parallax-widget four" id="products">
     <div class="container">
       <div class="parallax-region wow bounceInDown">
         <div class="row">
 
-          <!-- Start: Bottom First -->          
+          <!-- Start: Bottom First -->
           {% if page.bottom_first %}
             <div class = {{ bottom_class }}>
               {{ page.bottom_first }}
             </div>
-          {% endif %}          
+          {% endif %}
           <!-- End: Bottom First -->
 
           <!-- Start: Bottom Second -->
@@ -294,15 +294,15 @@
             <div class = {{ bottom_class }}>
               {{ page.bottom_second }}
             </div>
-          {% endif %}          
+          {% endif %}
           <!-- End: Bottom Second -->
 
-          <!-- Start: Bottom third -->          
+          <!-- Start: Bottom third -->
           {% if page.bottom_third %}
             <div class = {{ bottom_class }}>
               {{ page.bottom_third }}
             </div>
-          {% endif %}          
+          {% endif %}
           <!-- End: Bottom Third -->
 
           <!-- Start: Bottom Forth -->
@@ -353,7 +353,7 @@
 {% if  is_front and (page.footer_first or page.footer_second or page.footer_third) %}
   <div class="parallax-widget six" id="footer">
     <div class="container">
-      <div class="parallax-region wow bounceInUp">  
+      <div class="parallax-region wow bounceInUp">
         <div class="row">
 
           <!-- Start: Footer First -->
@@ -440,11 +440,11 @@
       <!-- Start: Credit link -->
       {% if show_credit_link %}
         <div class="col-sm-6">
-          <p class="credit-link">Designed By <a href="http://www.zymphonies.com" target="_blank">Zymphonies</a></p>
+          <p class="credit-link">ioet Inc.</a></p>
         </div>
       {% endif %}
       <!-- End: Credit link -->
-      
+
     </div>
   </div>
 </div>
