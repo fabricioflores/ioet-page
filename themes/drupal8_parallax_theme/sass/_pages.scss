@@ -63,7 +63,7 @@
 
 	&.one{
 		background: url('../images/parallax/one.jpg') fixed;
-		background-size: cover;		
+		background-size: cover;
 	}
 
 	&.two{
@@ -85,12 +85,12 @@
 		background: url('../images/parallax/four.jpg');
 		background-size: cover;
 	}
-	
+
 	&.five{
 		background: url('../images/parallax/five.jpg');
 		background-size: cover;
 	}
-	
+
 	&.six{
 		background: url('../images/parallax/six.jpg');
 		background-size: cover;
@@ -100,6 +100,12 @@
 .path-frontpage .parallax-widget.one{
 	background: url(../images/parallax/one.jpg);
     background-size: cover;
+}
+
+.path-frontpage {
+	.field--name-title, .node__links{
+		display: none;
+	}
 }
 
 .not-front .parallax-region{
@@ -121,10 +127,10 @@
 
 .contact-message-feedback-form {
 
-	.form-text, 
-	.form-email, 
-	.form-textarea{ 
-		width: 100%; 
+	.form-text,
+	.form-email,
+	.form-textarea{
+		width: 100%;
 	}
 
 }
@@ -149,7 +155,7 @@
 	}
 }
 
-.form-composite > .fieldset-wrapper > .description, 
+.form-composite > .fieldset-wrapper > .description,
 .form-item .description {
   color: #999;
   font-style: italic;
@@ -247,7 +253,7 @@
 	padding: 5px 10px;
 
 	*{
-		color: $servicesTextColor;		
+		color: $servicesTextColor;
 	}
 }
 

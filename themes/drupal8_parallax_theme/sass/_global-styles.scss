@@ -2,6 +2,7 @@
 /*@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);*/
 
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,300,600,700');
+// @import "variables-and-mixins";
 
 
 body{
@@ -56,7 +57,7 @@ body{
 		line-height: 100%;
 	}
 }
- 
+
 
 /*Google Map*/
 
@@ -71,7 +72,7 @@ body{
 	p, .block{ margin: 0; }
 
 	iframe{ display: block;	}
-} 
+}
 
 
 /*Credit Link*/
@@ -96,7 +97,7 @@ body{
 		padding: 10px;
 
 		&:hover{
-			color: #ff6260;
+			color: $linkColorHover;
 		}
 	}
 }
@@ -113,12 +114,12 @@ input, button, select, textarea{
 	display: block;
 }
 
-.btn, 
+.btn,
 input[type="submit"]{
  	@include globalButton();
 }
 
-.btn:hover, 
+.btn:hover,
 input[type="submit"]:hover{
 	@include globalButtonHover();
 }
@@ -146,7 +147,7 @@ input[type="submit"]:hover{
 
 		p{ margin-bottom: 10px;	}
 	}
-	
+
 }
 
 .comment-submitted{

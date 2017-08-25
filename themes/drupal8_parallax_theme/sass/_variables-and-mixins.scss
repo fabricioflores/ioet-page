@@ -6,8 +6,8 @@ $baseFontSize: 12px;
 $bodyBGColor: #fff;
 $baseFontColor: #000;
 
-$linkColor: #ff6260;
-$linkColorHover: #ea504e;
+$linkColor: #c5d6a3;
+$linkColorHover: darken($linkColor, 40);
 
 /*Header*/
 
@@ -19,7 +19,7 @@ $headerTextColor: #000;
 $menuTextColor: #eee;
 $menuTextActiveColor: $linkColor;
 
-$mobileMenuBg: #e44627;
+$mobileMenuBg: lighten($linkColor, 20);
 
 $desktopMenuTextColor: #000;
 $desktopMenuDropDownBg: rgba(255, 255, 255, 0.74);
