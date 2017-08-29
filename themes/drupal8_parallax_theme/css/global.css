@@ -1069,7 +1069,7 @@ nav h2 {
   float: left;
   margin: 0 10px 5px 0; }
 
-.node__content {
+.parallax-widget {
   font-size: 20px;
   line-height: normal; }
 
@@ -1078,6 +1078,3 @@ nav h2 {
 
 .views-row {
   margin-bottom: 40px; }
-
-.path-frontpage .logo {
-  visibility: hidden; }
