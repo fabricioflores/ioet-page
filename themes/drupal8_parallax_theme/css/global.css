@@ -1070,8 +1070,13 @@ nav h2 {
   margin: 0 10px 5px 0; }
 
 .parallax-widget {
-  font-size: 20px;
-  line-height: normal; }
+  font-size: 18px;
+  line-height: normal;
+  height: 100vh;
+  display: flex;
+  align-items: center; }
+  .parallax-widget > div {
+    width: 100%; }
 
 .centered {
   text-align: center; }
