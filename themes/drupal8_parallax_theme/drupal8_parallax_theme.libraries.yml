@@ -13,6 +13,12 @@ bootstrap:
     - core/drupalSettings
     - core/jquery.once
 
+flags:
+  version: 1.x
+  css:
+    theme:
+      includes/flags/flags.css: {}
+
 # global components
 global-components:
   Version: 1.x

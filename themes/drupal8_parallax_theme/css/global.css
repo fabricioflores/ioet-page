@@ -1076,5 +1076,6 @@ nav h2 {
 .centered {
   text-align: center; }
 
-.views-row {
-  margin-bottom: 40px; }
+.principal-menu {
+  display: flex;
+  align-items: center; }
