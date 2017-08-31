@@ -1079,3 +1079,6 @@ nav h2 {
 .principal-menu {
   display: flex;
   align-items: center; }
+  .principal-menu .flags-container {
+    display: flex;
+    justify-content: space-evenly; }
