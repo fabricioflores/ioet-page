@@ -1071,7 +1071,7 @@ nav h2 {
 .parallax-widget {
   font-size: 18px;
   line-height: normal;
-  height: 100vh; }
+  min-height: 100vh; }
   .parallax-widget.one {
     background-attachment: fixed !important; }
   .parallax-widget > div {
