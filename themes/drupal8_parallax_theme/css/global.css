@@ -1073,7 +1073,7 @@ nav h2 {
   line-height: normal;
   height: 100vh; }
   .parallax-widget.one {
-    background-attachment: fixed; }
+    background-attachment: fixed !important; }
   .parallax-widget > div {
     width: 100%; }
 
@@ -1083,6 +1083,8 @@ nav h2 {
 .region-primary-menu {
   background: white;
   color: black; }
+  .region-primary-menu .language-switcher-language-url {
+    padding-top: 15px; }
   .region-primary-menu ul.links {
     margin-bottom: 0;
     display: flex;

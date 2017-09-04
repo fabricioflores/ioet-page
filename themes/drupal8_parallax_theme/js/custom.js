@@ -1,4 +1,4 @@
-/* --------------------------------------------- 
+/* ---------------------------------------------
 * Filename:     custom.js
 * Version:      1.0.0 (2016-03-05)
 * Website:      http://www.zymphonies.com
@@ -50,7 +50,9 @@ function theme_menu(){
 
 	//Main menu
 	jQuery('#main-menu').smartmenus();
-	
+
+  jQuery('.region-primary-menu nav').addClass('col-sm-10');
+
 	//Mobile menu toggle
 	jQuery('.navbar-toggle').click(function(){
 		jQuery('.region-primary-menu').slideToggle();
@@ -66,13 +68,13 @@ function theme_menu(){
 }
 
 function theme_home(){
-	
+
 	//flexslider
 	jQuery('.flexslider').flexslider({
-    	animation: "slide"	
+    	animation: "slide"
     });
 
-	// primary-menu 
+	// primary-menu
 	jQuery('.region-primary-menu a').click(function() {
       if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
           var target = jQuery(this.hash);
@@ -93,5 +95,5 @@ jQuery(document).ready(function($){
 	clients_owl();
 	service_owl();
 	theme_menu();
-	theme_home();	
+	theme_home();
 });

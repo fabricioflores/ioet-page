@@ -96,6 +96,7 @@ class LanguageBlock extends BlockBase implements ContainerFactoryPluginInterface
         '#attributes' => [
           'class' => [
             "language-switcher-{$links->method_id}",
+            "col-sm-1"
           ],
         ],
         '#set_active_class' => TRUE,
