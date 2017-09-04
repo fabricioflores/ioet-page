@@ -795,7 +795,6 @@ nav h2 {
   .menu-base-theme ul {
     background: none; }
   .menu-base-theme li a {
-    color: #eee;
     border-bottom: 1px solid #EEF0F7;
     line-height: 100%;
     padding: 17px 15px;
@@ -1081,11 +1080,14 @@ nav h2 {
 .centered {
   text-align: center; }
 
-.region-primary-menu ul.links {
-  margin-bottom: 0;
-  display: flex;
-  justify-content: flex-end; }
-  .region-primary-menu ul.links .es, .region-primary-menu ul.links .en {
-    list-style: none;
-    display: inline-block;
-    margin-left: 5px; }
+.region-primary-menu {
+  background: white;
+  color: black; }
+  .region-primary-menu ul.links {
+    margin-bottom: 0;
+    display: flex;
+    justify-content: flex-end; }
+    .region-primary-menu ul.links .es, .region-primary-menu ul.links .en {
+      list-style: none;
+      display: inline-block;
+      margin-left: 5px; }
