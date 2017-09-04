@@ -2,8 +2,9 @@
   font-size: 18px
   line-height: normal
   height: 100vh
-  display: flex
-  align-items: center
+
+  &.one
+    background-attachment: fixed
 
   & > div
     width: 100%
@@ -11,10 +12,13 @@
 .centered
   text-align: center
 
-.principal-menu
-  display: flex
-  align-items: center
-
-  .flags-container
+.region-primary-menu
+  ul.links
+    margin-bottom: 0
     display: flex
-    justify-content: space-evenly
+    justify-content: flex-end
+
+    .es, .en
+      list-style: none
+      display: inline-block
+      margin-left: 5px

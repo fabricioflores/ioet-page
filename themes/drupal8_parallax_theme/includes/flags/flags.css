@@ -6,14 +6,14 @@
     display: inline-block;
     width: 16px;
     height: 11px;
-    background: url('flags.png') no-repeat;
+    background: url('flags.png') no-repeat !important;
 }
 
 
-.flag.flag-us {
-    background-position: -16px 0;
+.flag.flag-en {
+    background-position: -16px 0 !important;
 }
 
 .flag.flag-es {
-    background-position: 0 0;
+    background-position: 0 0 !important;
 }
