@@ -6,6 +6,33 @@
   &.one
     background-attachment: fixed !important
 
+  &.two
+    background: white
+    padding: 0
+    min-height: 85vh
+    display: flex
+    align-items: center
+
+    .parallax-region
+      max-width: 100%
+
+      .title
+        font-size: 3em
+        margin-bottom: 30px
+
+    .services-container
+      display: flex
+      flex-flow: row wrap
+
+      .service-text-container
+        display: flex
+        align-items: center
+
+      .services-image-container
+        background-image: url('/themes/drupal8_parallax_theme/images/parallax/three.jpg')
+        background-size: cover
+        height: 85vh
+
   & > div
     width: 100%
 
