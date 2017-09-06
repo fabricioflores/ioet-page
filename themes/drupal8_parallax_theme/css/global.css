@@ -941,7 +941,7 @@ nav h2 {
       background: black;
       background: rgba(255, 255, 255, 0.67); }
   .parallax-widget.three {
-    background: url("../images/parallax/three.jpg");
+    background: url("../images/parallax/two.jpg");
     background-size: cover; }
   .parallax-widget.four {
     background: url("../images/parallax/four.jpg");
@@ -1074,27 +1074,34 @@ nav h2 {
   min-height: 100vh; }
   .parallax-widget.one {
     background-attachment: fixed !important; }
-  .parallax-widget.two {
+  .parallax-widget.two, .parallax-widget.three {
     background: white;
     padding: 0;
     min-height: 85vh;
     display: flex;
     align-items: center; }
-    .parallax-widget.two .parallax-region {
-      max-width: 100%; }
-      .parallax-widget.two .parallax-region .title {
+    .parallax-widget.two .parallax-region, .parallax-widget.three .parallax-region {
+      max-width: 100%;
+      padding: 0; }
+      .parallax-widget.two .parallax-region .title, .parallax-widget.three .parallax-region .title {
         font-size: 3em;
         margin-bottom: 30px; }
-    .parallax-widget.two .services-container {
+    .parallax-widget.two .services-container, .parallax-widget.two .clients-container, .parallax-widget.three .services-container, .parallax-widget.three .clients-container {
       display: flex;
       flex-flow: row wrap; }
-      .parallax-widget.two .services-container .service-text-container {
+      .parallax-widget.two .services-container .service-text-container, .parallax-widget.two .clients-container .service-text-container, .parallax-widget.three .services-container .service-text-container, .parallax-widget.three .clients-container .service-text-container {
         display: flex;
         align-items: center; }
-      .parallax-widget.two .services-container .services-image-container {
+      .parallax-widget.two .services-container .services-image-container, .parallax-widget.two .clients-container .services-image-container, .parallax-widget.three .services-container .services-image-container, .parallax-widget.three .clients-container .services-image-container {
         background-image: url("/themes/drupal8_parallax_theme/images/parallax/three.jpg");
         background-size: cover;
         height: 85vh; }
+      @media (min-width: 992px) {
+        .parallax-widget.two .services-container .client-text-container, .parallax-widget.two .clients-container .client-text-container, .parallax-widget.three .services-container .client-text-container, .parallax-widget.three .clients-container .client-text-container {
+          order: 1; } }
+      @media (min-width: 992px) {
+        .parallax-widget.two .services-container .clients-images-container, .parallax-widget.two .clients-container .clients-images-container, .parallax-widget.three .services-container .clients-images-container, .parallax-widget.three .clients-container .clients-images-container {
+          order: 0; } }
   .parallax-widget > div {
     width: 100%; }
 

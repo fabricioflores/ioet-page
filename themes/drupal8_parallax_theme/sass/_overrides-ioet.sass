@@ -6,7 +6,7 @@
   &.one
     background-attachment: fixed !important
 
-  &.two
+  &.two, &.three
     background: white
     padding: 0
     min-height: 85vh
@@ -15,12 +15,13 @@
 
     .parallax-region
       max-width: 100%
+      padding: 0
 
       .title
         font-size: 3em
         margin-bottom: 30px
 
-    .services-container
+    .services-container, .clients-container
       display: flex
       flex-flow: row wrap
 
@@ -32,6 +33,14 @@
         background-image: url('/themes/drupal8_parallax_theme/images/parallax/three.jpg')
         background-size: cover
         height: 85vh
+
+      .client-text-container
+        +tablet
+          order: 1
+
+      .clients-images-container
+        +tablet
+          order: 0
 
   & > div
     width: 100%

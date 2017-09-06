@@ -45,3 +45,9 @@ $addressBg: #dcdcdc;
 	background: $linkColorHover;
 	color: #fff;
 }
+
+@mixin tablet {
+  @media(min-width: 992px){
+    @content;
+  }
+}
