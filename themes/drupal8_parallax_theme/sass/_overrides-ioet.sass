@@ -25,7 +25,7 @@
       display: flex
       flex-flow: row wrap
 
-      .service-text-container
+      .service-text-container, .client-text-container
         display: flex
         align-items: center
 
@@ -41,6 +41,22 @@
       .clients-images-container
         +tablet
           order: 0
+
+        .row-images
+          display: flex
+          align-items: center
+
+          & > .col-xs-3
+            display: flex
+            justify-content: center
+            margin-top: 40px
+
+            img
+              height: 30px
+              filter: grayscale(1)
+
+              &:hover
+                filter: none
 
   & > div
     width: 100%

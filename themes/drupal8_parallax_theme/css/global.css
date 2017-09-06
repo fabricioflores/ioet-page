@@ -1089,7 +1089,7 @@ nav h2 {
     .parallax-widget.two .services-container, .parallax-widget.two .clients-container, .parallax-widget.three .services-container, .parallax-widget.three .clients-container {
       display: flex;
       flex-flow: row wrap; }
-      .parallax-widget.two .services-container .service-text-container, .parallax-widget.two .clients-container .service-text-container, .parallax-widget.three .services-container .service-text-container, .parallax-widget.three .clients-container .service-text-container {
+      .parallax-widget.two .services-container .service-text-container, .parallax-widget.two .services-container .client-text-container, .parallax-widget.two .clients-container .service-text-container, .parallax-widget.two .clients-container .client-text-container, .parallax-widget.three .services-container .service-text-container, .parallax-widget.three .services-container .client-text-container, .parallax-widget.three .clients-container .service-text-container, .parallax-widget.three .clients-container .client-text-container {
         display: flex;
         align-items: center; }
       .parallax-widget.two .services-container .services-image-container, .parallax-widget.two .clients-container .services-image-container, .parallax-widget.three .services-container .services-image-container, .parallax-widget.three .clients-container .services-image-container {
@@ -1102,6 +1102,18 @@ nav h2 {
       @media (min-width: 992px) {
         .parallax-widget.two .services-container .clients-images-container, .parallax-widget.two .clients-container .clients-images-container, .parallax-widget.three .services-container .clients-images-container, .parallax-widget.three .clients-container .clients-images-container {
           order: 0; } }
+      .parallax-widget.two .services-container .clients-images-container .row-images, .parallax-widget.two .clients-container .clients-images-container .row-images, .parallax-widget.three .services-container .clients-images-container .row-images, .parallax-widget.three .clients-container .clients-images-container .row-images {
+        display: flex;
+        align-items: center; }
+        .parallax-widget.two .services-container .clients-images-container .row-images > .col-xs-3, .parallax-widget.two .clients-container .clients-images-container .row-images > .col-xs-3, .parallax-widget.three .services-container .clients-images-container .row-images > .col-xs-3, .parallax-widget.three .clients-container .clients-images-container .row-images > .col-xs-3 {
+          display: flex;
+          justify-content: center;
+          margin-top: 40px; }
+          .parallax-widget.two .services-container .clients-images-container .row-images > .col-xs-3 img, .parallax-widget.two .clients-container .clients-images-container .row-images > .col-xs-3 img, .parallax-widget.three .services-container .clients-images-container .row-images > .col-xs-3 img, .parallax-widget.three .clients-container .clients-images-container .row-images > .col-xs-3 img {
+            height: 30px;
+            filter: grayscale(1); }
+            .parallax-widget.two .services-container .clients-images-container .row-images > .col-xs-3 img:hover, .parallax-widget.two .clients-container .clients-images-container .row-images > .col-xs-3 img:hover, .parallax-widget.three .services-container .clients-images-container .row-images > .col-xs-3 img:hover, .parallax-widget.three .clients-container .clients-images-container .row-images > .col-xs-3 img:hover {
+              filter: none; }
   .parallax-widget > div {
     width: 100%; }
 
