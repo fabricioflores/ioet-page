@@ -1073,7 +1073,12 @@ nav h2 {
   line-height: normal;
   min-height: 100vh; }
   .parallax-widget.one {
-    background-attachment: fixed !important; }
+    background-attachment: fixed !important;
+    display: flex;
+    align-items: center;
+    font-size: 24px; }
+    .parallax-widget.one .parallax-region {
+      max-width: 1000px; }
   .parallax-widget.two, .parallax-widget.three {
     background: white;
     padding: 0;
