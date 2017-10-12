@@ -1,71 +1,72 @@
-.parallax-widget
-  font-size: 18px
-  line-height: normal
-  min-height: 100vh
+.path-frontpage
+  .parallax-widget
+    font-size: 18px
+    line-height: normal
+    min-height: 100vh
 
-  &.one
-    background-attachment: fixed !important
-    display: flex
-    align-items: center
-    font-size: 24px
-
-    .parallax-region
-      max-width: 1000px
-
-  &.two, &.three
-    background: white
-    padding: 0
-    min-height: 85vh
-    display: flex
-    align-items: center
-
-    .parallax-region
-      max-width: 100%
-      padding: 0
-
-      .title
-        font-size: 3em
-        margin-bottom: 30px
-
-    .services-container, .clients-container
+    &.one
+      background-attachment: fixed !important
       display: flex
-      flex-flow: row wrap
+      align-items: center
+      font-size: 24px
 
-      .service-text-container, .client-text-container
+      .parallax-region
+        max-width: 1000px
+
+    &.two, &.three
+      background: white
+      padding: 0
+      min-height: 85vh
+      display: flex
+      align-items: center
+
+      .parallax-region
+        max-width: 100%
+        padding: 0
+
+        .title
+          font-size: 3em
+          margin-bottom: 30px
+
+      .services-container, .clients-container
         display: flex
-        align-items: center
+        flex-flow: row wrap
 
-      .services-image-container
-        background-image: url('/themes/drupal8_parallax_theme/images/parallax/three.jpg')
-        background-size: cover
-        height: 85vh
-
-      .client-text-container
-        +tablet
-          order: 1
-
-      .clients-images-container
-        +tablet
-          order: 0
-
-        .row-images
+        .service-text-container, .client-text-container
           display: flex
           align-items: center
 
-          & > .col-xs-3
+        .services-image-container
+          background-image: url('/themes/drupal8_parallax_theme/images/parallax/three.jpg')
+          background-size: cover
+          height: 85vh
+
+        .client-text-container
+          +tablet
+            order: 1
+
+        .clients-images-container
+          +tablet
+            order: 0
+
+          .row-images
             display: flex
-            justify-content: center
-            margin-top: 40px
+            align-items: center
 
-            img
-              height: 30px
-              filter: grayscale(1)
+            & > .col-xs-3
+              display: flex
+              justify-content: center
+              margin-top: 40px
 
-              &:hover
-                filter: none
+              img
+                height: 30px
+                filter: grayscale(1)
 
-  & > div
-    width: 100%
+                &:hover
+                  filter: none
+
+    & > div
+      width: 100%
 
 .centered
   text-align: center
