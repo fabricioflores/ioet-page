@@ -30,3 +30,4 @@ core/phpunit.xml
 
 .DS_Store
 config.codekit3
+modules/
